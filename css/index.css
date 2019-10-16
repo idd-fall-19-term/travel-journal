@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Source+Sans+Pro&display=swap');
+
+
+
+
+.title{
+    text-align: center;
+    color:white;
+    background-color: black;
+    font-weight:normal;
+	font-style: normal;
+	font-size:1rem;
+    font-family:helvetica,arial,sans-serif;
+    border-bottom: 0.125rem solid black;
+    font: 500 normal 1.5rem 'Roboto',helvetica,arial,sans-serif;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    position
+}
+
+.gallery{
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 1fr 1fr ;
+    background-color: lightskyblue;
+}
+
+
+
+.city-name{
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.city-toronto{
+    background-image: url(../img/toronto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.city-helsinki{
+    background-image: url(../img/helsinki.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.city-osaka{
+    background-image: url(../img/osaka.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.city-lagos{
+    background-image: url(../img/lagos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.city-toronto:hover{
+    zoom: 2;
+    color: white;
+    background-color:none;
+}
+.city-helsinki:hover{
+    zoom: 2;
+    color: white;
+    background-color:none;
+} 
+.city-osaka:hover{
+     zoom: 2;
+     color: white;
+     background-color:none;
+}
+        
+ .city-lagos:hover{
+    zoom: 2;
+     color: white;
+     background-color:none;
+ }
+
